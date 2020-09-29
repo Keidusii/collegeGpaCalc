@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>College GPA Caclulator</title>
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="Styles/gpaCalc.css"/>
+    </head>
+    <body>
+        <h1>College GPA caculator</h1>
+        <div>
+            <table id="form">
+                <thead>
+                    <th>Course</th>
+                    <th>Grade<span id="required">*</span></th>
+                    <th>Credits<span id="required">*</span></th>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+        <p>
+            <button id="exSemester" onclick="addSemester()">Add Another Semester</button>
+            <button id="delSemester" onclick="deleteSemester()">Delete Semester</button>
+        </p>
+        <button id= "submit" onclick="calcGPA()"><strong>Calculate GPA</strong></button>
+        <p id=gpa></p>
+        <p id=required><strong>*Both grade and credits needed to calculate GPA.</strong></p>
+        <p id="required">Classes without either the grade, credit, or both will not be included in calculation.</p>
+        <script src="Scripts/gpaCalc.js"></script>
+    </body>
+</html>

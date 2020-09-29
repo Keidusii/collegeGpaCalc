@@ -1,0 +1,19 @@
+.credits{
+    width: 75px;
+}
+
+table {
+    padding: 10px;
+}
+
+#required {
+    color:red;
+}
+
+#submit {
+    color: green;
+}
+
+.course {
+    width: 215px;
+}
