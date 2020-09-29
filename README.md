@@ -1,1 +1,1 @@
-# gpaCalc
+# collegeGpaCalc
